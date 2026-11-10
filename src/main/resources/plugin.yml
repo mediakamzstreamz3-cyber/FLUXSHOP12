@@ -1,0 +1,12 @@
+name: DonutShop
+version: 1.0.0
+main: dev.donutshop.ShopPlugin
+api-version: "1.21"
+depend: [Vault]
+commands:
+  shop:
+    description: Open the shop
+    aliases: [buy]
+  shopadmin:
+    description: Admin commands (reload, give/take balance)
+    permission: donutshop.admin
